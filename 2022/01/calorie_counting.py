@@ -1,6 +1,6 @@
 # https://adventofcode.com/2022/day/1
 
-calories = [line.strip() for line in open('./input/1_input')]
+calories = [line.strip() for line in open('input')]
 
 sum_elves = []
 one_elf = 0
