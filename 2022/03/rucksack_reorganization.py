@@ -39,7 +39,7 @@ while i < len(rucksacks):
     i += 3
 
 # Find the item type that appears in both compartments of each rucksack. What is the sum of the priorities of those item types?
-print(points)
+print('Part 1:', points)
 
 # Find the item type that corresponds to the badges of each three-Elf group. What is the sum of the priorities of those item types?
-print(group_points)
+print('Part 2:', group_points)

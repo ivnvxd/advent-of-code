@@ -19,7 +19,7 @@ for item in pairs:
         overlap += 1
 
 # In how many assignment pairs does one range fully contain the other?
-print(contain)
+print('Part 1:', contain)
 
 # In how many assignment pairs do the ranges overlap?
-print(overlap)
+print('Part 2:', overlap)

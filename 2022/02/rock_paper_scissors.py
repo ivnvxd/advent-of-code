@@ -34,7 +34,7 @@ for item in strategy:
     sec_points += sec_outcome[sec_variations[(opponent, response)]]
 
 # What would your total score be if everything goes exactly according to your strategy guide?
-print(points)
+print('Part 1:', points)
 
 # Following the Elf's instructions for the second column, what would your total score be if everything goes exactly according to your strategy guide?
-print(sec_points)
+print('Part 2:', sec_points)

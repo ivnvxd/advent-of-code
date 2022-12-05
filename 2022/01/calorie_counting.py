@@ -15,7 +15,7 @@ for item in calories:
 sum_elves.append(one_elf)
 
 # Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
-print(max(sum_elves))
+print('Part 1:', max(sum_elves))
 
 # Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?
-print(sum(sorted(sum_elves, reverse=True)[0:3]))
+print('Part 2:', sum(sorted(sum_elves, reverse=True)[0:3]))
