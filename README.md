@@ -4,7 +4,7 @@
 
 <h1>Advent of Code</h1>
 
-<p>My solutions to [Advent of Code](https://adventofcode.com/) puzzles</p>
+My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</p>
 
 </div>
 
