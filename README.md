@@ -15,6 +15,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 3: Rucksack Reorganization](2022/03)
 * [Day 4: Camp Cleanup](2022/04)
 * [Day 5: Supply Stacks](2022/05)
+* [Day 6: Tuning Trouble](2022/06)
 
 ---
 

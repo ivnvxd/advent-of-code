@@ -15,22 +15,22 @@ with open('input') as file:
             break
         raw.append(line)
 
-    # transpose raw data
-    raw_transposed = list(zip(*raw))
-
-    # keep only columns with useful data
-    for i, stack in enumerate(raw_transposed):
-        if i % 4 == 1:
-            column = ''.join(stack[:-1]).lstrip()
-            stacks.append(column)
-
-    # make stacks deepcopy for the second part
-    new_stacks = deepcopy(stacks)
-
     # read instructions
     for line in file:
         line = line.split()
         moves.append((int(line[1]), int(line[3]), int(line[5])))
+
+# transpose raw data
+raw_transposed = list(zip(*raw))
+
+# keep only columns with useful data
+for i, stack in enumerate(raw_transposed):
+    if i % 4 == 1:
+        column = ''.join(stack[:-1]).lstrip()
+        stacks.append(column)
+
+# make stacks deepcopy for the second part
+new_stacks = deepcopy(stacks)
 
 # move all crates in reversed order
 for amount, from_, to in moves:
