@@ -20,4 +20,4 @@ for i in range(len(data) - 14):
 print('Part 1:', marker)
 
 # How many characters need to be processed before the first start-of-message marker is detected?
-print('Part 1:', marker_2)
+print('Part 2:', marker_2)
