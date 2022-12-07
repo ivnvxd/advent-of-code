@@ -16,6 +16,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 4: Camp Cleanup](2022/04)
 * [Day 5: Supply Stacks](2022/05)
 * [Day 6: Tuning Trouble](2022/06)
+* [Day 7: No Space Left On Device](2022/07)
 
 ---
 
@@ -23,3 +24,5 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 
 * [Day 1: Sonar Sweep](2021/01)
 * [Day 2: Dive!](2021/02)
+
+[//]: # (* [Day 3: Binary Diagnostic]&#40;2021/03&#41;)
