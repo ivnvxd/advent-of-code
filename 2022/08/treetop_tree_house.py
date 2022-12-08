@@ -24,25 +24,22 @@ for i, row in enumerate(data):
 
         visible = [True, True, True, True]
 
-        # find the first tree in the north that is higher tan the current one
+        # find the trees in the north, east, south and west that are higher than the current one
         for north in range(i - 1, -1, -1):
             if data[north][j] >= tree:
                 visible[0] = False
                 break
 
-        # find the first tree in the east that is higher tan the current one
         for east in range(j + 1, width):
             if row[east] >= tree:
                 visible[1] = False
                 break
 
-        # find the first tree in the south that is higher tan the current one
         for south in range(i + 1, height):
             if data[south][j] >= tree:
                 visible[2] = False
                 break
 
-        # find the first tree in the west that is higher tan the current one
         for west in range(j - 1, -1, -1):
             if row[west] >= tree:
                 visible[3] = False
