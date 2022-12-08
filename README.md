@@ -17,6 +17,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 5: Supply Stacks](2022/05)
 * [Day 6: Tuning Trouble](2022/06)
 * [Day 7: No Space Left On Device](2022/07)
+* [Day 8: Treetop Tree House](2022/08)
 
 ---
 
