@@ -1,6 +1,6 @@
 # https://adventofcode.com/2022/day/11
 
-import re
+from re import findall
 from operator import add, mul
 from collections import deque
 from copy import deepcopy
@@ -69,16 +69,16 @@ divisors = []
 for m in data:
     lines = m.splitlines()
 
-    operation_value = re.findall(r'\d+', lines[2])
-    divisor = int(re.findall(r'\d+', lines[3])[0])
+    operation_value = findall(r'\d+', lines[2])
+    divisor = int(findall(r'\d+', lines[3])[0])
 
     monkey = Monkey()
-    monkey.items = deque(map(int, re.findall(r'\d+', lines[1])))
+    monkey.items = deque(map(int, findall(r'\d+', lines[1])))
     monkey.operation = add if '+' in lines[2] else mul
     monkey.operation_value = int(operation_value[0]) if operation_value else None
     monkey.test = divisor
-    monkey.if_true = int(re.findall(r'\d+', lines[4])[0])
-    monkey.if_false = int(re.findall(r'\d+', lines[5])[0])
+    monkey.if_true = int(findall(r'\d+', lines[4])[0])
+    monkey.if_false = int(findall(r'\d+', lines[5])[0])
 
     monkeys.append(monkey)
     divisors.append(divisor)
