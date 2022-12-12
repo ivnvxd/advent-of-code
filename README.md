@@ -19,8 +19,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 7: No Space Left On Device](2022/07)
 * [Day 8: Treetop Tree House](2022/08)
 * [Day 9: Rope Bridge](2022/09)
-
-[//]: # (* []&#40;2022/10&#41;)
+* [Day 10: Cathode-Ray Tube](2022/10)
 
 [//]: # (* []&#40;2022/11&#41;)
 
