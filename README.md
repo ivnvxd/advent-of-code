@@ -21,10 +21,8 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 9: Rope Bridge](2022/09)
 * [Day 10: Cathode-Ray Tube](2022/10)
 * [Day 11: Monkey in the Middle](2022/11)
-
-[//]: # (* []&#40;2022/12&#41;)
-
-[//]: # (* []&#40;2022/13&#41;)
+* Day 12: Hill Climbing Algorithm
+* [Day 13: Distress Signal](2022/13)
 
 [//]: # (* []&#40;2022/14&#41;)
 
