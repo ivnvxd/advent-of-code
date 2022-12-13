@@ -54,5 +54,48 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 
 * [Day 1: Sonar Sweep](2021/01)
 * [Day 2: Dive!](2021/02)
+* Day 3: Binary Diagnostic
 
-[//]: # (* [Day 3: Binary Diagnostic]&#40;2021/03&#41;)
+[//]: # (* [Day 4: Giant Squid]&#40;2021/04&#41;)
+
+[//]: # (* [Day 5: Hydrothermal Venture]&#40;2021/05&#41;)
+
+[//]: # (* [Day 6: Lanternfish]&#40;2021/06&#41;)
+
+[//]: # (* [Day 7: The Treachery of Whales]&#40;2021/07&#41;)
+
+[//]: # (* [Day 8: Seven Segment Search]&#40;2021/08&#41;)
+
+[//]: # (* [Day 9: Smoke Basin]&#40;2021/09&#41;)
+
+[//]: # (* [Day 10: Syntax Scoring]&#40;2021/10&#41;)
+
+[//]: # (* [Day 11: Dumbo Octopus]&#40;2021/11&#41;)
+
+[//]: # (* [Day 12: Passage Pathing]&#40;2021/12&#41;)
+
+[//]: # (* [Day 13: Transparent Origami]&#40;2021/13&#41;)
+
+[//]: # (* [Day 14: Extended Polymerization]&#40;2021/14&#41;)
+
+[//]: # (* [Day 15: Chiton]&#40;2021/15&#41;)
+
+[//]: # (* [Day 16: Packet Decoder]&#40;2021/16&#41;)
+
+[//]: # (* [Day 17: Trick Shot]&#40;2021/17&#41;)
+
+[//]: # (* [Day 18: Snailfish]&#40;2021/18&#41;)
+
+[//]: # (* [Day 19: Beacon Scanner]&#40;2021/19&#41;)
+
+[//]: # (* [Day 20: Trench Map]&#40;2021/20&#41;)
+
+[//]: # (* [Day 21: Dirac Dice]&#40;2021/21&#41;)
+
+[//]: # (* [Day 22: Reactor Reboot]&#40;2021/22&#41;)
+
+[//]: # (* [Day 23: Amphipod]&#40;2021/23&#41;)
+
+[//]: # (* [Day 24: Arithmetic Logic Unit]&#40;2021/24&#41;)
+
+[//]: # (* [Day 25: Sea Cucumber]&#40;2021/25&#41;)
