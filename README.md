@@ -54,7 +54,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 
 * [Day 1: Sonar Sweep](2021/01)
 * [Day 2: Dive!](2021/02)
-* Day 3: Binary Diagnostic
+* [Day 3: Binary Diagnostic](2021/03)
 
 [//]: # (* [Day 4: Giant Squid]&#40;2021/04&#41;)
 
