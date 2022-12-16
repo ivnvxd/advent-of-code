@@ -23,8 +23,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 11: Monkey in the Middle](2022/11)
 * Day 12: Hill Climbing Algorithm
 * [Day 13: Distress Signal](2022/13)
-
-[//]: # (* []&#40;2022/14&#41;)
+* [Day 14: Regolith Reservoir](2022/14)
 
 [//]: # (* []&#40;2022/15&#41;)
 
