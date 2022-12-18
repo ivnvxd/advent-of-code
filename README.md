@@ -24,14 +24,10 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * Day 12: Hill Climbing Algorithm
 * [Day 13: Distress Signal](2022/13)
 * [Day 14: Regolith Reservoir](2022/14)
-
-[//]: # (* []&#40;2022/15&#41;)
-
-[//]: # (* []&#40;2022/16&#41;)
-
-[//]: # (* []&#40;2022/17&#41;)
-
-[//]: # (* []&#40;2022/18&#41;)
+* Day 15: Beacon Exclusion Zone
+* Day 16: Proboscidea Volcanium
+* Day 17: Pyroclastic Flow
+* [Day 18: Boiling Boulders](2022/18)
 
 [//]: # (* []&#40;2022/19&#41;)
 
