@@ -28,20 +28,13 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * Day 16: Proboscidea Volcanium
 * Day 17: Pyroclastic Flow
 * [Day 18: Boiling Boulders](2022/18)
-
-[//]: # (* []&#40;2022/19&#41;)
-
-[//]: # (* []&#40;2022/20&#41;)
-
-[//]: # (* []&#40;2022/21&#41;)
-
-[//]: # (* []&#40;2022/22&#41;)
-
-[//]: # (* []&#40;2022/23&#41;)
-
-[//]: # (* []&#40;2022/24&#41;)
-
-[//]: # (* []&#40;2022/25&#41;)
+* Day 19: Not Enough Minerals
+* Day 20: Grove Positioning System
+* Day 21: Monkey Math
+* Day 22: Monkey Map
+* Day 23: Unstable Diffusion
+* Day 24: Blizzard Basin
+* Day 25: Full of Hot Air
 
 ---
 
