@@ -8,6 +8,10 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 
 </div>
 
+### 2023
+
+* [Day 1: Trebuchet?!](2023/01)
+
 ### 2022
 
 * [Day 1: Calorie Counting](2022/01)
