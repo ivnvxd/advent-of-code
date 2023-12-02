@@ -11,6 +11,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 ### 2023
 
 * [Day 1: Trebuchet?!](2023/01)
+* [Day 2: Cube Conundrum](2023/02)
 
 ### 2022
 
