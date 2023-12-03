@@ -12,6 +12,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 
 * [Day 1: Trebuchet?!](2023/01)
 * [Day 2: Cube Conundrum](2023/02)
+* [Day 3: Gear Ratios](2023/03)
 
 ### 2022
 
