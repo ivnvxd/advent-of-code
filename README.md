@@ -15,6 +15,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 3: Gear Ratios](2023/03)
 * [Day 4: Scratchcards](2023/04)
 * [Day 5: If You Give A Seed A Fertilizer](2023/05)
+* [Day 6: Wait For It](2023/06)
 
 ### 2022
 
