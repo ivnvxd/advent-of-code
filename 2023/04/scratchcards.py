@@ -31,7 +31,7 @@ for i in range(len(data)):
 part2 = sum(cards.values())
 
 # How many points are they worth in total?
-print(part1)
+print("Part 1:", part1)
 
 # how many total scratchcards do you end up with?
-print(part2)
+print("Part 2:", part2)

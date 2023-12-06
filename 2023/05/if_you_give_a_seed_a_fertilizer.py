@@ -56,7 +56,7 @@ part1 = min(seeds)
 part2 = min(seeds_pairs)[0]
 
 # What is the lowest location number that corresponds to any of the initial seed numbers?
-print(part1)
+print("Part 1:", part1)
 
 # What is the lowest location number that corresponds to any of the initial seed numbers?
-print(part2)
+print("Part 2:", part2)
