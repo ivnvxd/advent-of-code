@@ -17,6 +17,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 5: If You Give A Seed A Fertilizer](2023/05)
 * [Day 6: Wait For It](2023/06)
 * [Day 7: Camel Cards](2023/07)
+* [Day 8: Haunted Wasteland](2023/08)
 
 ### 2022
 

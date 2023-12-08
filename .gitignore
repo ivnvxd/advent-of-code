@@ -24,4 +24,6 @@ coverage.xml
 
 # AdventOfCode
 input
+input.txt
 test
+test2
