@@ -20,6 +20,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 8: Haunted Wasteland](2023/08)
 * [Day 9: Mirage Maintenance](2023/09)
 * [Day 10: Pipe Maze](2023/10)
+* [Day 11: Cosmic Expansion](2023/11)
 
 ### 2022
 
