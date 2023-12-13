@@ -22,6 +22,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 10: Pipe Maze](2023/10)
 * [Day 11: Cosmic Expansion](2023/11)
 * [Day 12: Hot Springs](2023/12)
+* [Day 13: Point of Incidence](2023/13)
 
 ### 2022
 
