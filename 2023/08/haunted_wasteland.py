@@ -1,3 +1,5 @@
+# --- Day 8: Haunted Wasteland ---
+#
 # https://adventofcode.com/2023/day/8
 
 import math
@@ -56,8 +58,8 @@ for node in nodes:
 
 part2 = math.lcm(*cycles)
 
-# How many steps are required to reach ZZZ?
+# Starting at AAA, follow the left/right instructions. How many steps are required to reach ZZZ?
 print("Part 1:", part1)
 
-# How many steps does it take before you're only on nodes that end with Z?
+# Simultaneously start on every node that ends with A. How many steps does it take before you're only on nodes that end with Z?
 print("Part 2:", part2)

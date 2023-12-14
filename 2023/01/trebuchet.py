@@ -1,3 +1,5 @@
+# --- Day 1: Trebuchet?! ---
+#
 # https://adventofcode.com/2023/day/1
 
 import re
@@ -5,14 +7,13 @@ import re
 with open("input.txt") as file:
     lines = [line.strip() for line in file]
 
+# Part 1
 part1 = []
 for line in lines:
     values = [i for i in line if i.isdigit()]
     part1.append(int(values[0] + values[-1]))
 
-# What is the sum of all of the calibration values?
-print("Part 1:", sum(part1))
-
+# Part 2
 digits = {
     "one": "1",
     "two": "2",
@@ -33,6 +34,9 @@ for line in lines:
     matches = re.findall(pattern, line)
     values = [digits.get(i, i) for i in matches]
     part2.append(int(values[0] + values[-1]))
+
+# Consider your entire calibration document. What is the sum of all of the calibration values?
+print("Part 1:", sum(part1))
 
 # What is the sum of all of the calibration values?
 print("Part 2:", sum(part2))

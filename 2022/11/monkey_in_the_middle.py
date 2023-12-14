@@ -1,10 +1,12 @@
+# --- Day 11: Monkey in the Middle ---
+#
 # https://adventofcode.com/2022/day/11
 
-from re import findall
-from operator import add, mul
 from collections import deque
 from copy import deepcopy
 from math import lcm
+from operator import add, mul
+from re import findall
 
 
 class Monkey:
@@ -33,7 +35,6 @@ def round(monkeys, div) -> None:
         monkey.inspections += len(monkey.items)
 
         while monkey.items:
-
             if div:
                 item = monkey.inspect() % div
             else:
@@ -59,8 +60,8 @@ def simulate(monkeys, rounds, div=None) -> int:
     return first * second
 
 
-with open('input') as file:
-    data = file.read().split('\n\n')
+with open("input") as file:
+    data = file.read().split("\n\n")
 
 monkeys = []
 divisors = []
@@ -69,16 +70,16 @@ divisors = []
 for m in data:
     lines = m.splitlines()
 
-    operation_value = findall(r'\d+', lines[2])
-    divisor = int(findall(r'\d+', lines[3])[0])
+    operation_value = findall(r"\d+", lines[2])
+    divisor = int(findall(r"\d+", lines[3])[0])
 
     monkey = Monkey()
-    monkey.items = deque(map(int, findall(r'\d+', lines[1])))
-    monkey.operation = add if '+' in lines[2] else mul
+    monkey.items = deque(map(int, findall(r"\d+", lines[1])))
+    monkey.operation = add if "+" in lines[2] else mul
     monkey.operation_value = int(operation_value[0]) if operation_value else None
     monkey.test = divisor
-    monkey.if_true = int(findall(r'\d+', lines[4])[0])
-    monkey.if_false = int(findall(r'\d+', lines[5])[0])
+    monkey.if_true = int(findall(r"\d+", lines[4])[0])
+    monkey.if_false = int(findall(r"\d+", lines[5])[0])
 
     monkeys.append(monkey)
     divisors.append(divisor)
@@ -93,7 +94,7 @@ div = lcm(*divisors)
 answer2 = simulate(monkeys2, 10000, div)
 
 # What is the level of monkey business after 20 rounds of stuff-slinging simian shenanigans?
-print('Part 1:', answer1)
+print("Part 1:", answer1)
 
 # What is the level of monkey business after 10000 rounds?
-print('Part 2:', answer2)
+print("Part 2:", answer2)

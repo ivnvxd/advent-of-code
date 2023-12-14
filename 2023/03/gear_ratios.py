@@ -1,3 +1,5 @@
+# --- Day 3: Gear Ratios ---
+#
 # https://adventofcode.com/2023/day/3
 
 
@@ -48,8 +50,8 @@ for y in range(rows):
 
 part1 = sum(sum_parts(counted, data))
 
-# Part 1: What is the sum of all of the part numbers in the engine schematic?
+# Of course, the actual engine schematic is much larger. What is the sum of all of the part numbers in the engine schematic?
 print("Part 1:", part1)
 
-# Part 2: What is the sum of all of the gear ratios in your engine schematic?
+# What is the sum of all of the gear ratios in your engine schematic?
 print("Part 2:", part2)

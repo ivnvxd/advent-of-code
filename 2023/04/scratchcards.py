@@ -1,3 +1,5 @@
+# --- Day 4: Scratchcards ---
+#
 # https://adventofcode.com/2023/day/4
 
 from collections import defaultdict
@@ -30,8 +32,8 @@ for i in range(len(data)):
 
 part2 = sum(cards.values())
 
-# How many points are they worth in total?
+# Take a seat in the large pile of colorful cards. How many points are they worth in total?
 print("Part 1:", part1)
 
-# how many total scratchcards do you end up with?
+# Process all of the original and copied scratchcards until no more scratchcards are won. Including the original set of scratchcards, how many total scratchcards do you end up with?
 print("Part 2:", part2)

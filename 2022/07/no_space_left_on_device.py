@@ -1,9 +1,10 @@
+# --- Day 7: No Space Left On Device ---
+#
 # https://adventofcode.com/2022/day/7
 
 from collections import defaultdict
 
-
-data = [line.strip() for line in open('input')]
+data = [line.strip() for line in open("input")]
 
 path = ()
 directories = defaultdict(int)
@@ -15,20 +16,20 @@ unused_space_needed = 30000000
 for commands in data:
     line = commands.strip().split()
 
-    if line[0] == '$':
+    if line[0] == "$":
         # ignore ls command
-        if line[1] == 'ls':
+        if line[1] == "ls":
             continue
 
         # navigate between directories
-        elif line[1] == 'cd':
-            if line[2] == '..':
+        elif line[1] == "cd":
+            if line[2] == "..":
                 path = path[:-1]
             else:
                 path += (line[2],)
 
     # ignore dir output
-    elif line[0] == 'dir':
+    elif line[0] == "dir":
         continue
 
     # add file size to the dict
@@ -44,7 +45,7 @@ for commands in data:
         path = tmp
 
 # determine needed to free size
-enough = directories[('/',)]
+enough = directories[("/",)]
 unused_space = total_disk_space - enough
 to_free = unused_space_needed - unused_space
 
@@ -57,7 +58,7 @@ for current, size in directories.items():
         enough = min(size, enough)
 
 # Find all of the directories with a total size of at most 100000. What is the sum of the total sizes of those directories?
-print('Part 1:', sizes_sum)
+print("Part 1:", sizes_sum)
 
 # Find the smallest directory that, if deleted, would free up enough space on the filesystem to run the update. What is the total size of that directory?
-print('Part 2:', enough)
+print("Part 2:", enough)

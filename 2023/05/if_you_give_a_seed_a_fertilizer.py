@@ -1,3 +1,5 @@
+# --- Day 5: If You Give A Seed A Fertilizer ---
+#
 # https://adventofcode.com/2023/day/5
 
 with open("input.txt") as file:
@@ -58,5 +60,5 @@ part2 = min(seeds_pairs)[0]
 # What is the lowest location number that corresponds to any of the initial seed numbers?
 print("Part 1:", part1)
 
-# What is the lowest location number that corresponds to any of the initial seed numbers?
+# Consider all of the initial seed numbers listed in the ranges on the first line of the almanac. What is the lowest location number that corresponds to any of the initial seed numbers?
 print("Part 2:", part2)

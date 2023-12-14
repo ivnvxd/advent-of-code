@@ -1,17 +1,17 @@
+# --- Day 5: Supply Stacks ---
+#
 # https://adventofcode.com/2022/day/5
 
 from copy import deepcopy
-
 
 raw = []
 stacks = [None]
 moves = []
 
-with open('input') as file:
-
+with open("input") as file:
     # iterate through first input part and stop at the first empty line
     for line in file:
-        if line == '\n':
+        if line == "\n":
             break
         raw.append(line)
 
@@ -26,7 +26,7 @@ raw_transposed = list(zip(*raw))
 # keep only columns with useful data
 for i, stack in enumerate(raw_transposed):
     if i % 4 == 1:
-        column = ''.join(stack[:-1]).lstrip()
+        column = "".join(stack[:-1]).lstrip()
         stacks.append(column)
 
 # make stacks deepcopy for the second part
@@ -39,10 +39,10 @@ for amount, from_, to in moves:
     stacks[to] = moved + stacks[to]
 
 # collect top crates in one string
-on_top = ''.join(item[0] for item in stacks[1:])
+on_top = "".join(item[0] for item in stacks[1:])
 
 # After the rearrangement procedure completes, what crate ends up on top of each stack?
-print('Part 1:', on_top)
+print("Part 1:", on_top)
 
 # move all crates in given order
 for amount, from_, to in moves:
@@ -51,7 +51,7 @@ for amount, from_, to in moves:
     new_stacks[to] = moved + new_stacks[to]
 
 # collect top crates in one string
-new_top = ''.join(item[0] for item in new_stacks[1:])
+new_top = "".join(item[0] for item in new_stacks[1:])
 
 # Before the rearrangement process finishes, update your simulation so that the Elves know where they should stand to be ready to unload the final supplies. After the rearrangement procedure completes, what crate ends up on top of each stack?
-print('Part 2:', new_top)
+print("Part 2:", new_top)

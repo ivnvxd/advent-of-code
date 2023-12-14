@@ -1,3 +1,5 @@
+# --- Day 9: Mirage Maintenance ---
+#
 # https://adventofcode.com/2023/day/9
 
 
@@ -27,8 +29,8 @@ for line in data.splitlines():
     part2 += extrapolate(nums, part2=True)
 
 
-# What is the sum of these extrapolated values?
+# Analyze your OASIS report and extrapolate the next value for each history. What is the sum of these extrapolated values?
 print("Part 1:", part1)
 
-# What is the sum of these extrapolated values?
+# Analyze your OASIS report again, this time extrapolating the previous value for each history. What is the sum of these extrapolated values?
 print("Part 2:", part2)

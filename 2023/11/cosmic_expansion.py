@@ -1,3 +1,5 @@
+# --- Day 11: Cosmic Expansion ---
+#
 # https://adventofcode.com/2023/day/11
 
 with open("input.txt") as file:
@@ -28,8 +30,8 @@ for i, (y1, x1) in enumerate(galaxies):
                 part1 += 1
                 part2 += 999999
 
-# What is the sum of these lengths?
+# Expand the universe, then find the length of the shortest path between every pair of galaxies. What is the sum of these lengths?
 print("Part 1:", part1)
 
-# What is the sum of these lengths?
+# Starting with the same initial image, expand the universe according to these new rules, then find the length of the shortest path between every pair of galaxies. What is the sum of these lengths?
 print("Part 2:", part2)

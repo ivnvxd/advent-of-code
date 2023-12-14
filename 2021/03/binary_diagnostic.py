@@ -1,3 +1,5 @@
+# --- Day 3: Binary Diagnostic ---
+#
 # https://adventofcode.com/2021/day/3
 
 from copy import deepcopy
@@ -22,7 +24,6 @@ def most_common_bit(data, pos, default):
 
 
 def delete(data, pos, default):
-
     # Search for most or least common value
     if default == 1:
         check = most_common_bit(data, pos, default)
@@ -39,11 +40,11 @@ def delete(data, pos, default):
         return data
 
 
-report = [line.strip() for line in open('input')]
+report = [line.strip() for line in open("input")]
 
 length = len(report[0])
-gamma_rate = ''
-epsilon_rate = ''
+gamma_rate = ""
+epsilon_rate = ""
 oxygen = deepcopy(report)
 co2 = deepcopy(report)
 
@@ -63,7 +64,7 @@ oxygen_rate = int(oxygen[0], base=2)
 co2_rate = int(co2[0], base=2)
 
 # What is the power consumption of the submarine?
-print('Part 1:', gamma_rate * epsilon_rate)
+print("Part 1:", gamma_rate * epsilon_rate)
 
 # What is the life support rating of the submarine?
-print('Part 2:', oxygen_rate * co2_rate)
+print("Part 2:", oxygen_rate * co2_rate)

@@ -1,21 +1,15 @@
+# --- Day 18: Boiling Boulders ---
+#
 # https://adventofcode.com/2022/day/18
 
 from collections import deque
 
+DIRECTIONS = [(1, 0, 0), (-1, 0, 0), (0, 1, 0), (0, -1, 0), (0, 0, 1), (0, 0, -1)]
 
-DIRECTIONS = [
-    (1, 0, 0),
-    (-1, 0, 0),
-    (0, 1, 0),
-    (0, -1, 0),
-    (0, 0, 1),
-    (0, 0, -1)
-]
-
-data = [line.strip() for line in open('input')]
+data = [line.strip() for line in open("input")]
 
 # Make a dict of all cube's position points as keys and uncovered side counts as values
-cubes = {tuple(map(int, item.split(','))): 0 for item in data}
+cubes = {tuple(map(int, item.split(","))): 0 for item in data}
 
 # Iterate through all cubes in dict
 for cube in cubes.keys():
@@ -63,7 +57,7 @@ while len(check) > 0:
 exterior = sum(cubes.values())
 
 # What is the surface area of your scanned lava droplet?
-print('Part 1:', surface)
+print("Part 1:", surface)
 
 # What is the exterior surface area of your scanned lava droplet?
-print('Part 2:', exterior)
+print("Part 2:", exterior)

@@ -1,4 +1,8 @@
+# --- Day 10: Pipe Maze ---
+#
 # https://adventofcode.com/2023/day/10
+#
+# TODO: Part 2
 
 from collections import deque
 
@@ -69,5 +73,8 @@ while queue:
 
 part1 = len(loop) // 2
 
-# How many steps along the loop does it take to get from the starting position to the point farthest from the starting position?
+# Find the single giant loop starting at S. How many steps along the loop does it take to get from the starting position to the point farthest from the starting position?
 print("Part 1:", part1)
+
+# Figure out whether you have time to search for the nest by calculating the area within the loop. How many tiles are enclosed by the loop?
+# print("Part 2:", part2)

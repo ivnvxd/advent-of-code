@@ -1,3 +1,5 @@
+# --- Day 13: Distress Signal ---
+#
 # https://adventofcode.com/2022/day/13
 
 from functools import cmp_to_key
@@ -30,14 +32,14 @@ def compare(first, second):
         return len(first) - len(second)
 
 
-with open('input') as file:
-    data = file.read().strip().split('\n\n')
+with open("input") as file:
+    data = file.read().strip().split("\n\n")
 
 indices = 0
 packets = [[[2]], [[6]]]
 
 for i, pair in enumerate(data):
-    first, second = map(eval, pair.split('\n'))
+    first, second = map(eval, pair.split("\n"))
     packets.append(first)
     packets.append(second)
     if compare(first, second) < 0:
@@ -45,10 +47,10 @@ for i, pair in enumerate(data):
 
 # Sort list of inputs using cmp_to_key functions
 packets.sort(key=cmp_to_key(compare))
-key = ((packets.index([[2]]) + 1) * (packets.index([[6]]) + 1))
+key = (packets.index([[2]]) + 1) * (packets.index([[6]]) + 1)
 
 # Determine which pairs of packets are already in the right order. What is the sum of the indices of those pairs?
-print('Part 1:', indices)
+print("Part 1:", indices)
 
 # Organize all of the packets into the correct order. What is the decoder key for the distress signal?
-print('Part 2:', key)
+print("Part 2:", key)

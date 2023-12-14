@@ -1,6 +1,8 @@
+# --- Day 8: Treetop Tree House ---
+#
 # https://adventofcode.com/2022/day/8
 
-with open('input', 'r') as file:
+with open("input", "r") as file:
     data = file.read().splitlines()
 
 # get dimensions of the grid
@@ -54,7 +56,7 @@ for i, row in enumerate(data):
         best_score = max(score, best_score)
 
 # Consider your map; how many trees are visible from outside the grid?
-print('Part 1:', visible_trees)
+print("Part 1:", visible_trees)
 
 # Consider each tree on your map. What is the highest scenic score possible for any tree?
-print('Part 2:', best_score)
+print("Part 2:", best_score)

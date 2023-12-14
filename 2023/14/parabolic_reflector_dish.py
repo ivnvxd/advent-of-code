@@ -57,10 +57,10 @@ def main():
 
     part2 = weigh(grid)
 
-    # what is the total load on the north support beams?
+    # Tilt the platform so that the rounded rocks all roll north. Afterward, what is the total load on the north support beams?
     print("Part 1:", part1)
 
-    # what is the total load on the north support beams?
+    # Run the spin cycle for 1000000000 cycles. Afterward, what is the total load on the north support beams?
     print("Part 2:", part2)
 
 

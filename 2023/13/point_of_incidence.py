@@ -1,3 +1,5 @@
+# --- Day 13: Point of Incidence ---
+#
 # https://adventofcode.com/2023/day/13
 
 import numpy as np
@@ -28,8 +30,8 @@ for pattern in data.split("\n\n"):
     part2 += mirror(lines, 1) * 100 + mirror(lines.T, 1)
 
 
-# What number do you get after summarizing all of your notes?
+# Find the line of reflection in each of the patterns in your notes. What number do you get after summarizing all of your notes?
 print("Part 1:", part1)
 
-# What number do you get after summarizing the new reflection line in each pattern in your notes?
+# In each pattern, fix the smudge and find the different line of reflection. What number do you get after summarizing the new reflection line in each pattern in your notes?
 print("Part 2:", part2)

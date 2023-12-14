@@ -1,3 +1,5 @@
+# --- Day 7: Camel Cards ---
+#
 # https://adventofcode.com/2023/day/7
 
 
@@ -79,8 +81,8 @@ part2 = 0
 for i, hand in enumerate(hands, 1):
     part2 += i * hand[1]
 
-# What are the total winnings?
+# Find the rank of every hand in your set. What are the total winnings?
 print("Part 1:", part1)
 
-# What are the new total winnings?
+# Using the new joker rule, find the rank of every hand in your set. What are the new total winnings?
 print("Part 2:", part2)

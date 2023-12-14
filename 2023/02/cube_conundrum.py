@@ -1,3 +1,5 @@
+# --- Day 2: Cube Conundrum ---
+#
 # https://adventofcode.com/2023/day/2
 
 with open("input.txt") as file:
@@ -46,8 +48,8 @@ for line in lines:
 
     part2 += power
 
-# What is the sum of the IDs of those games?
+# Determine which games would have been possible if the bag had been loaded with only 12 red cubes, 13 green cubes, and 14 blue cubes. What is the sum of the IDs of those games?
 print("Part 1:", part1)
 
-# What is the sum of the power of these sets?
+# For each game, find the minimum set of cubes that must have been present. What is the sum of the power of these sets?
 print("Part 2:", part2)

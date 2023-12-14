@@ -1,3 +1,5 @@
+# --- Day 6: Wait For It ---
+#
 # https://adventofcode.com/2023/day/6
 
 with open("input.txt") as file:
@@ -28,7 +30,7 @@ for hold in range(time2):
 
 part2 *= beat2
 
-# What do you get if you multiply these numbers together?
+# Determine the number of ways you could beat the record in each race. What do you get if you multiply these numbers together?
 print("Part 1:", part1)
 
 # How many ways can you beat the record in this one much longer race?

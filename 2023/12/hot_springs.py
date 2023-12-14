@@ -1,3 +1,5 @@
+# --- Day 12: Hot Springs ---
+#
 # https://adventofcode.com/2023/day/12
 
 from functools import cache
@@ -43,8 +45,8 @@ for line in data:
     nums2 = nums * 5
     part2 += arrange(springs2, nums2)
 
-# What is the sum of those counts?
+# For each row, count all of the different arrangements of operational and broken springs that meet the given criteria. What is the sum of those counts?
 print("Part 1:", part1)
 
-# what is the new sum of possible arrangement counts?
+# Unfold your condition records; what is the new sum of possible arrangement counts?
 print("Part 2:", part2)

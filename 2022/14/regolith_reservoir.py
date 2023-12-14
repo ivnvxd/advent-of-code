@@ -1,4 +1,7 @@
+# --- Day 14: Regolith Reservoir ---
+#
 # https://adventofcode.com/2022/day/14
+
 
 def pour(sand, bottom, void=True):
     x, y = 500, 0
@@ -34,20 +37,20 @@ def pour(sand, bottom, void=True):
     return y, sand
 
 
-data = [line.strip() for line in open('input')]
+data = [line.strip() for line in open("input")]
 
 rock = set()
 
 # Draw the cave and add all rocks
 for line in data:
     # Split points
-    points = line.split(' -> ')
+    points = line.split(" -> ")
 
     start = None
 
     for point in points:
         # Split coordinates
-        x, y = point.split(',')
+        x, y = point.split(",")
         x, y = int(x), int(y)
 
         # Do nothing for the first point in each line
@@ -87,7 +90,7 @@ while (500, 0) not in rock:
 floor_sand = sand
 
 # How many units of sand come to rest before sand starts flowing into the abyss below?
-print('Part 1:', abyss_sand)
+print("Part 1:", abyss_sand)
 
 # How many units of sand come to rest?
-print('Part 2:', floor_sand)
+print("Part 2:", floor_sand)
