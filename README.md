@@ -23,6 +23,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 11: Cosmic Expansion](2023/11)
 * [Day 12: Hot Springs](2023/12)
 * [Day 13: Point of Incidence](2023/13)
+* [Day 14: Parabolic Reflector Dish](2023/14/parabolic_reflector_dish.py)
 
 ### 2022
 
