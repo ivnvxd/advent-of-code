@@ -24,6 +24,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 12: Hot Springs](2023/12/hot_springs.py)
 * [Day 13: Point of Incidence](2023/13/point_of_incidence.py)
 * [Day 14: Parabolic Reflector Dish](2023/14/parabolic_reflector_dish.py)
+* [Day 15: Lens Library](2023/15/lens_library.py)
 
 ## 2022
 
