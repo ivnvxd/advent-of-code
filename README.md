@@ -26,6 +26,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 14: Parabolic Reflector Dish](2023/14/parabolic_reflector_dish.py)
 * [Day 15: Lens Library](2023/15/)
 * [Day 16: The Floor Will Be Lava](2023/16/)
+* [Day 17: Clumsy Crucible](2023/17/clumsy_crucible.py)
 
 ## 2022
 
