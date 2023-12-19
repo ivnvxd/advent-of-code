@@ -28,6 +28,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 16: The Floor Will Be Lava](2023/16/)
 * [Day 17: Clumsy Crucible](2023/17/clumsy_crucible.py)
 * [Day 18: Lavaduct Lagoon](2023/18/lavaduct_lagoon.py)
+* [Day 19: Aplenty](2023/19/aplenty.py)
 
 ## 2022
 
