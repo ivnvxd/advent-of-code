@@ -29,6 +29,8 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 17: Clumsy Crucible](2023/17/clumsy_crucible.py)
 * [Day 18: Lavaduct Lagoon](2023/18/lavaduct_lagoon.py)
 * [Day 19: Aplenty](2023/19/aplenty.py)
+* Day 20: Pulse Propagation
+* [Day 21: Step Counter](2023/21/step_counter.py)
 
 ## 2022
 
