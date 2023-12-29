@@ -31,6 +31,10 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 * [Day 19: Aplenty](2023/19/aplenty.py)
 * Day 20: Pulse Propagation
 * [Day 21: Step Counter](2023/21/step_counter.py)
+* Day 22: Sand Slabs
+* Day 23: A Long Walk
+* Day 24: Never Tell Me The Odds
+* Day 25: Snowverload
 
 ## 2022
 
