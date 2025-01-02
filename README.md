@@ -8,6 +8,10 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 
 </div>
 
+## 2024
+
+* [Day 1: Historian Hysteria](2024/01/historian_hysteria.py)
+
 ## 2023
 
 * [Day 1: Trebuchet?!](2023/01/trebuchet.py)
