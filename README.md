@@ -12,6 +12,7 @@ My solutions to <a href="https://adventofcode.com/">Advent of Code</a> puzzles</
 
 * [Day 1: Historian Hysteria](2024/01/historian_hysteria.py)
 * [Day 2: Red-Nosed Reports](2024/02/red-nosed_reports.py)
+* [Day 3: Mull It Over](2024/03/mull_it_over.py)
 
 ## 2023
 
